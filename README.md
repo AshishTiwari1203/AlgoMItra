@@ -74,7 +74,7 @@ Make sure you have the following installed:
    sh
    yarn dev
 
-2. Open your browser and navigate to http://localhost:3000.
+2. Open your browser and navigate to https://algomitra-two.vercel.app.
 
 ## Contributing
 

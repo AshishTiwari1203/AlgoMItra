@@ -93,7 +93,7 @@ const Topbar: React.FC<TopbarProps> = ({ problemPage }) => {
           </div>
           <div>
             <a
-              href="http://localhost:3000/gemini"
+              href="https://algomitra-two.vercel.app/gemini"
               target="_blank"
               rel="noreferrer"
               className="bg-blue-500 py-1.5 px-3 cursor-pointer rounded text-white hover:bg-blue-600 transition-all duration-200">
