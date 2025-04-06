@@ -79,7 +79,7 @@ export default function Home() {
               setLoadingProblems={setLoadingProblems}></ProblemTable>
           </table>
         </div>
-        <form
+        {/* <form
           className="p-6 flex flex-col max-w-sm gap-3"
           onSubmit={handleSubmit}>
           <input
@@ -125,7 +125,7 @@ export default function Home() {
             name="link"
           />
           <button className="bg-white">Save</button>
-        </form>
+        </form> */}
       </main>
     </>
   );

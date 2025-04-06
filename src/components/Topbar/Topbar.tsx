@@ -81,7 +81,6 @@ const Topbar: React.FC<TopbarProps> = ({ problemPage }) => {
             </div>
           </div>
         )}
-
         <div className="flex items-center space-x-4 flex-shrink-0">
           <div>
             <a
@@ -90,6 +89,15 @@ const Topbar: React.FC<TopbarProps> = ({ problemPage }) => {
               rel="noreferrer"
               className="bg-dark-fill-3 py-1.5 px-3 cursor-pointer rounded text-brand-orange hover:bg-dark-fill-2">
               Request a Problem
+            </a>
+          </div>
+          <div>
+            <a
+              href="http://localhost:3000/gemini"
+              target="_blank"
+              rel="noreferrer"
+              className="bg-blue-500 py-1.5 px-3 cursor-pointer rounded text-white hover:bg-blue-600 transition-all duration-200">
+              Ask AI
             </a>
           </div>
           {!user && (
